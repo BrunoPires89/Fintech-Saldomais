@@ -83,9 +83,9 @@ input[type="password"] {
     text-decoration: none;
 }
 
-button {
+.btn-login {
     background-color: var(--blue);
-    color: var(--green);
+    color: var(--gray);
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -103,4 +103,57 @@ button {
     color: var(--blue);
     text-decoration: none;
     font-weight: bold;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+    color: #888;
+    font-weight: 500;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #ccc;
+    margin: 0 10px;
+}
+
+.social-login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.facebook-btn {
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.google-btn {
+    background-color: #ffffff;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.google-btn:hover {
+    background-color: #f1f1f1;
+}
+
+.facebook-btn:hover {
+    background-color: #2d4373;
 }
