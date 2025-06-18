@@ -77,13 +77,13 @@ input[type="password"] {
     margin-top: 10px;
 }
 
-.esqueci {
+.esqueceu-senha {
     font-size: 0.85rem;
     color: var(--blue);
     text-decoration: none;
 }
 
-.btn-login {
+.login-btn {
     background-color: var(--blue);
     color: var(--gray);
     padding: 10px 20px;
